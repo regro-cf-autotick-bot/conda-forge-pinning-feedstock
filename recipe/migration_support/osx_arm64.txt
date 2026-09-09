@@ -450,6 +450,9 @@ frictionqpotspringblock
 frozenlist
 fs-s3fs
 fsleyes
+fsspec-data
+fsspec-db
+fsspec-rs
 funcparserlib
 functorch
 fzf
@@ -1003,6 +1006,7 @@ orange3-network
 oras
 orc
 orderedset
+organizeit2
 orocos-kdl
 ortools-python
 osdf-client
@@ -1730,6 +1734,7 @@ sourmash-minimal
 sox
 soxr-python
 spacy
+spaday
 spade
 spam
 spectrum
@@ -1832,6 +1837,7 @@ torchtext
 torchvision
 tracktable
 traits
+transports
 treecorr
 treelite
 trexio
