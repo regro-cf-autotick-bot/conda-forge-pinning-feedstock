@@ -917,6 +917,7 @@ nd2
 ndarray
 nds2-client-swig
 neovim
+nepenthe
 nest-simulator
 netcdf-cxx4
 netcdf4
