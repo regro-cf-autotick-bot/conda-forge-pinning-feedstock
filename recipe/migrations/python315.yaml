@@ -33,6 +33,8 @@ __migrator:
     ignored_deps_per_node:
         matplotlib:
             - pyqt
+        hypothesis:
+            - pandas
     additional_zip_keys:
         - channel_sources
 

@@ -191,12 +191,6 @@ zip_keys:
     - clhep
     - geant4
 
-# armv7l specifics because conda-build sets many things to centos 6
-# this can probably be removed when conda-build gets updated defaults
-# for aarch64
-cdt_arch: armv7l                          # [armv7l]
-BUILD: armv7-conda_cos7-linux-gnueabihf   # [armv7l]
-
 pin_run_as_build:
   libblst:
     max_pin: x.x
@@ -979,7 +973,7 @@ pulseaudio_client:
 pulseaudio_daemon:
   - '17.0'
 pybind11_abi:
-  - 4
+  - 11
 pythia8:
   - '8.312'
 python:
@@ -1031,7 +1025,7 @@ qtkeychain:
 rav1e:
   - '0.8'
 rdma_core:
-  - '63'
+  - '65'
 re2:
   - 2025.11.05
 readline:
