@@ -187,6 +187,7 @@ dataclasses
 datafusion
 datamash
 dataprep
+datatable
 datavzrd
 dav1d
 dbus
